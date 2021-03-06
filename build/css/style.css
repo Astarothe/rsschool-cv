@@ -1,2 +1,108 @@
-@font-face{font-family:Montserrat;font-style:normal;font-weight:400;font-display:swap;src:local('Montserrat Regular'),local('Montserrat-Regular'),url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype')}@font-face{font-family:Montserrat;font-style:normal;font-weight:700;font-display:swap;src:local('Montserrat Bold'),local('Montserrat-Bold'),url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE7g4.ttf) format('truetype')}@font-face{font-family:Montserrat;font-style:normal;font-weight:800;font-display:swap;src:local('Montserrat ExtraBold'),local('Montserrat-ExtraBold'),url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H7g4.ttf) format('truetype')}body{margin:0 auto}body .header{background-color:#000;padding-top:30px;padding-bottom:30px}body .header .nav .nav-list{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;list-style-type:none;padding-left:0}body .header .nav .nav-list .nav-items{text-decoration:none}body .header .nav .nav-list .nav-items .nav-link{text-decoration:none;color:#fff;font-family:Montserrat,sans-serif;font-size:23px}body .about{padding-top:30px;padding-bottom:30px;font-family:Montserrat,sans-serif;text-align:center;font-size:25px;background:#eff0f2}body .about .about-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}body .about .about-wrapper .about-intro .about-intro--age{font-size:15px;margin-right:270px;margin-top:150px}body .about .about-wrapper .about-position{border-radius:100%}body .about .about-wrapper .about-position .about-photo{display:block;background-image:url(../../build/img/j_xTnLl0Cxg.jpg);width:250px;height:250px;border-radius:50%;background-size:300px;background-position-y:-80px;background-position-x:-20px}body .skills{text-align:center;font-family:Montserrat,sans-serif;font-size:25px;background:#eff0f2;border-top:1px solid #000;padding:30px 10% 50px}body .skills .skills-list{list-style-type:none;padding-left:0}body .skills .skills-list .skills-item{margin-top:30px;text-align:left;font-size:23px}body .experience{text-align:center;font-family:Montserrat,sans-serif;font-size:25px;background:#eff0f2;border-top:1px solid #000;padding:30px 10% 50px}body .experience .experience-list{list-style-type:none;padding-left:0}body .experience .experience-list .experience-item{margin-top:30px;text-align:left;font-size:23px}body .education{text-align:center;font-family:Montserrat,sans-serif;font-size:25px;background:#eff0f2;border-top:1px solid #000;padding:30px 10% 50px}body .education .education-text{text-align:left;font-size:23px}body .english{text-align:center;font-family:Montserrat,sans-serif;font-size:25px;background:#eff0f2;border-top:1px solid #000;padding:30px 10% 50px}body .english .english-text{text-align:left;font-size:23px}body .footer{background-color:#000;color:#fff;text-align:center;font-family:Montserrat,sans-serif;font-size:25px;padding-top:30px;border-top:1px solid #000;padding-bottom:50px}body .footer .contacts-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;font-size:20px}
-/*# sourceMappingURL=style.css.map */
+import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Open+Sans:wght@400;700&family=Raleway:wght@700&display=swap');
+
+body{
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: ivory;
+}
+.container{
+  display: flex;
+}
+.header{
+  background-color: rgba(220, 221, 222, 1);
+  width: 33%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #636467;
+}
+.photo{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 30px auto;
+}
+.name{
+  font-family: "bebas neue",sans-serif;
+  font-size: 55px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  max-width: 300px;
+}
+.name-1{
+  font-family: "bebas neue",sans-serif;
+  font-size: 55px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 34.2px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  max-width: 300px;
+}
+.profession{
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+.header .title{
+  font-family: "Raleway",sans-serif;
+  text-transform: uppercase;
+  line-height: 1.16;
+  letter-spacing: 2.7px;
+  border-bottom: 2px solid #949698;
+  padding-bottom: 19px;
+}
+
+.header .text{
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.23;
+  text-align: justify;
+}
+.skill-list{
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.skill-list li{
+  width: 50%;
+  margin: 15px 0;
+  position: relative;
+  padding-left: 15px;
+}
+.skill-list li a{
+  text-decoration: none;
+  color: #636467;
+}
+mark{
+  background-color: transparent;
+  color:currentColor;
+}
+.contact{
+  font-family: "Open Sans",sans-serif;
+}
+.contact ul{
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.contact li{
+  margin-top: 10px;
+}
+.contact a{
+  font-weight: normal;
+  text-decoration: none;
+  color:#636467;
+  display: inline-block;
+  margin-top: 7px;
+}

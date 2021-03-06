@@ -8,55 +8,34 @@
   <title>My profile</title>
 </head>
 <body>
-  <header class="header">
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-items"><a class="nav-link" href="#skills">SKILLS</a></li>
-        <li class="nav-items"><a class="nav-link" href="#experience">EXPERIENCE</a></li>
-        <li class="nav-items"><a class="nav-link" href="#education">EDUCATION</a></li>
-        <li class="nav-items"><a class="nav-link" href="#english">ENGLISH</a></li>
-        <li class="nav-items"><a class="nav-link" href="#contacts">CONTACTS</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="about">
-      <div class="about-wrapper">
-        <h1 class="about-intro">Hello! I  Mishel Savich <br> <span class="about-intro--age">(My age: 22 years)</span></h1>
-        <div class="about-position"><span class="about-photo"></span></div>
-      </div>
-    </section>
-    <section class="skills">
-      <h2 class="skills-intro" id="skills">SKILLS</h2>
-      <ul class="skills-list">
-        <li class="skills-item">HTML/CSS/JS basics</li>
-        <li class="skills-item">less/Gulp</li>
-        <li class="skills-item">Photoshop</li>
-      </ul>
-    </section>
-    <section class="experience">
-      <h2 class="experience-intro" id="experience">EXPERIENCE</h2>
-      <ul class="experience-list">
-        <li class="experience-item">HTML Academy: HTML and CSS Professional </li>
-        <li class="experience-item">HTML and CSS. Adaptive layout and automation</li>
-        <li class="experience-item">JavaScript Basics</li>
-        <li class="experience-item">JavaScript for Kids by Nick Morgan</li>
-      </ul>
-    </section>
-    <section class="education">
-      <h2 class="education-intro" id="education">EDUCATION</h2>
-      <p class="education-text">I study at the 4-year Polotsk State University faculty of Finance and Economics.</p>
-    </section>
-    <section class="english">
-      <h2 class="english-intro" id="english">ENGLISH</h2>
-      <p class="english-text">A1 (Beginner)</p>
-    </section>
-  </main>
-  <footer class="footer">
-    <h2 class="contacts" id="contacts">CONTACTS</h2>
-    <div class="contacts-wrapper"><p>Phone: +375295956879</p>
-      <p>E-mail: minatosavich@gmail.com</p>
-    </div>
-  </footer>
+  <div class="container">
+    <header class="header">
+      <img class="photo" src="build/img/j_xTnLl0Cxg.jpg" alt="My photo as a child">
+      <p class="name">Mishel</p>
+      <p class="name-1">Savich</p>
+      <p class="profession">Junior developer</p>
+      <section class="about">
+        <h2 class="title">About me</h2>
+        <p class="text">My name is Mishel Savich. I study at Polotsk State University financial and economic faculty. Fourth course. I've been studying front-end development for about one year. During this time, I managed to learn: HTML / CSS, namely adaptive layout, working with adaptive images (retina), semantic elements, forms, vector graphics, accessibility, styling, automation with Gulp and less. Javascript at a basic level: working with arrays, objects, loops, conditional branching: if, '?' , switch, data types. <br>English: A1 Beginner </p>
+      </section>
+      <section class="skills">
+        <h2 class="title">Skills</h2>
+        <ul class="skill-list">
+          <li><a href="https://rolling-scopes-school.github.io/astarothe-JS2020Q3/shelter/pages/main/index.html"> <mark> HTML5 / CSS3</mark></a></li>
+          <li><a href="https://rolling-scopes-school.github.io/astarothe-JS2020Q3/shelter/pages/main/index.html"><mark>JavaScript</mark></a></li>
+          <li><mark>Gulp / Less</mark></li>
+          <li><mark>Git</mark></li>
+          <li><mark>Photoshop</mark></li>
+        </ul>
+      </section>
+      <section class="contact">
+        <h2 class="title">Contact</h2>
+        <ul>
+          <li>Phone: <br> <a href="tel:+375295956879">+375295956879</a></li>
+          <li>Email: <br> <a href="mailto:minatosavich@gmail.com">minatosavich@gmail.com</a></li>
+        </ul>
+      </section>
+    </header>
+  </div>
 </body>
 </html>
